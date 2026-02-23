@@ -1,12 +1,12 @@
 #include <WiFiNINA.h>
 #include <Arduino_LSM6DSOX.h>
 
-char ssid[] = "rahool";
-char pass[] = "rahooligan56";
+char ssid[] = "";
+char pass[] = "";
 
 WiFiClient client;
 
-const char* server = "172.20.10.12";  // Your computer IP
+const char* server = "";  // Your computer IP
 int port = 3000;
 
 unsigned long lastSampleTime = 0;
